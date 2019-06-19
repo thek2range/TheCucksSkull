@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 315772900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test Scenario Example.",
+        "description": "",
+        "id": "test-feature-example.;test-scenario-example.",
+        "after": [
+          {
+            "result": {
+              "duration": 3699666900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\Workspaces\\RnD\\SeleniumCucksMike\\SeleniumCucks\\Reports\\GeneratdScreenShots\\Amazon\\2019-06-19\\Amazon_2019-06-19_1560935185176.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 26987070700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2839235500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user provides \"Search Element\" as \"Samsung TV\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search Element",
+                  "offset": 19
+                },
+                {
+                  "val": "Samsung TV",
+                  "offset": 39
+                }
+              ],
+              "location": "elementOperation.the_user_provides_as(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10536978700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on \"Search Button\" Button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search Button",
+                  "offset": 20
+                }
+              ],
+              "location": "elementOperation.the_user_clicks_on_Button(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Feature Example.",
+    "description": "",
+    "id": "test-feature-example.",
+    "keyword": "Feature",
+    "uri": "TestFeatures.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TestTag1"
+      }
+    ]
+  }
+]
